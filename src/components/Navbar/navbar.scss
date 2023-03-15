@@ -1,0 +1,64 @@
+@import '../../style.scss';
+
+.navbar {
+    padding: 2rem 10rem;
+    display: flex;
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+
+        p {
+            font-size: 15px;
+            font-weight: bold;
+            color: hsl(0, 0%, 75%);
+            gap: 30px;
+            cursor: pointer;
+
+            &:hover {
+                color: hsl(260, 8%, 14%);
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding-left: 29.5rem;
+
+        .login {
+            font-size: 15px;
+            font-weight: bold;
+            color: hsl(0, 0%, 75%);
+            border: none;
+            background: none;
+            cursor: pointer;
+
+            &:hover {
+                color: hsl(260, 8%, 14%);
+            }
+        }
+
+
+        .signUp {
+            background: hsl(180, 66%, 49%);
+            color: white;
+            border: 1px solid hsl(180, 66%, 49%);
+            font-weight: bold;
+            border-radius: 20px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.4;
+            }
+        }
+
+    }
+}

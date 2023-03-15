@@ -1,0 +1,48 @@
+.footer {
+    padding: 3rem 10rem 3.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 15rem;
+    background-color: hsl(260, 8%, 14%);
+
+
+    .left {
+        img {
+            padding-top: 1rem;
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 6rem;
+
+        .list {
+
+            h3 {
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                font-size: 14px;
+                color: hsl(0, 0%, 75%);
+                cursor: pointer;
+
+                &:hover {
+                    color: hsl(180, 66%, 49%);
+                }
+            }
+        }
+
+        .icons {
+            display: flex;
+            align-items: baseline;
+            gap: 20px;
+            cursor: pointer;
+        }
+    }
+}

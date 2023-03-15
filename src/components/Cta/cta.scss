@@ -1,0 +1,32 @@
+.cta {
+    padding: 4rem 5rem 2.7rem;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url('../../images/bg-boost-desktop.svg');
+    overflow-x: visible;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        font-weight: 700;
+        color: white;
+    }
+
+    button {
+        background: hsl(180, 66%, 49%);
+        color: white;
+        border: none;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 26px;
+        padding: 15px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

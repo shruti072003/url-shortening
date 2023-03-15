@@ -1,0 +1,56 @@
+@import '../../style.scss';
+
+.bodyComponent {
+    padding: 2rem 10rem;
+    display: flex;
+
+
+    .left {
+        width: 50%;
+
+        .description {
+
+            h1 {
+                font-weight: 700;
+                font-size: 4.5rem;
+                line-height: 5rem;
+                color: hsl(260, 8%, 14%);
+            }
+
+            p {
+                font-weight: 500;
+                color: hsl(0, 0%, 75%);
+                font-size: 22px;
+                bottom: -1rem;
+            }
+        }
+
+        button {
+            background: hsl(180, 66%, 49%);
+            color: white;
+            border: none;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 26px;
+            padding: 15px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 2rem;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.4;
+            }
+        }
+    }
+
+    .right {
+        img {
+            position: absolute;
+            left: 52rem;
+            top: 10rem;
+            overflow: hidden;
+        }
+    }
+}
